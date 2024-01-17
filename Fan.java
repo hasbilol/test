@@ -1,6 +1,8 @@
 
 package lab1q1;
 
+import org.w3c.dom.ls.LSOutput;
+
 /**
  *
  * @author User
@@ -89,8 +91,16 @@ public static final int SLOW =1, MEDIUM = 2, FAST= 3;
         fan2.setColor("blue");
         fan2.setOn(false);
 
+        Fan fan3 = new Fan();
+        fan2.setSpeed(SLOW);
+        fan2.setRadius(5.0);
+        fan2.setColor("blue");
+        fan2.setOn(true);
+
         System.out.println("Fan 1: " + fan1.toString());
         System.out.println("Fan 2: " + fan2.toString());
+        System.out.println("Fan 2: " + fan3.toString());
     }
+
     
 }
